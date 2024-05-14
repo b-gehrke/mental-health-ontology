@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://galenos.org.uk/ontologies/gmho_with_imports.owl#"
-     xml:base="https://galenos.org.uk/ontologies/gmho_with_imports.owl"
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/temporary/gmho_with_imports.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/temporary/gmho_with_imports.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -14,9 +14,11 @@
      xmlns:schema="https://schema.org/"
      xmlns:Property="https://www.wikidata.org/wiki/Property:"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ontologies="https://galenos.org.uk/ontologies/"
      xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
-    <owl:Ontology rdf:about="https://galenos.org.uk/ontologies/gmho_with_imports.owl">
-        <owl:imports rdf:resource="https://galenos.org.uk/ontologies/gmho_external.owl"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/temporary/gmho_with_imports.owl">
+        <owl:imports rdf:resource="file:/var/folders/t8/bmf12zvx5pz5pjlw29rxvw1m0000gp/T/tmpeledfkmnonto-spread-ed-release-40/gmho_external.owl"/>
+        <owl:imports rdf:resource="file:/var/folders/t8/bmf12zvx5pz5pjlw29rxvw1m0000gp/T/tmpeledfkmnonto-spread-ed-release-40/gmho_upper.owl"/>
     </owl:Ontology>
     
 
@@ -39,6 +41,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A person who has reached maturity.</obo:IAO_0000115>
         <rdfs:label>adult</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -50,6 +53,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A person between 13 and 19 years of age.</obo:IAO_0000115>
         <rdfs:label>teenager</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -61,6 +65,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A mixed study design in which two or more groups experience the same study processes but in a different order.</obo:IAO_0000115>
         <rdfs:label>cross over design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -72,6 +77,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A non-interventional study design in which study participants who have been identified as having (case) or not having (control) some characteristic of interest are compared on other characteristics to establish whether these are associated with being a case or control.</obo:IAO_0000115>
         <rdfs:label>case-control study design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -83,6 +89,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A study design in which study participants are not planned to experience an intervention as a part of the study process.</obo:IAO_0000115>
         <rdfs:label>non-interventional study design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -94,6 +101,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A study design in which measurements taken on the same study participants at two or more different times in different circumstances are compared.</obo:IAO_0000115>
         <rdfs:label>repeated measure design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -106,6 +114,7 @@
         <obo:IAO_0000115>An interventional study design in which participants are randomly allocated to receive one of two or more interventions or no intervention using a study randomisation process.</obo:IAO_0000115>
         <obo:IAO_0000118>RCT, randomised controlled trial</obo:IAO_0000118>
         <rdfs:label>randomised controlled trial design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -117,6 +126,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A study design in which measurements taken on two or more groups of study participants at two or more times are compared allowing differences to be assessed between groups and over time.</obo:IAO_0000115>
         <rdfs:label>mixed study design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -129,6 +139,7 @@
         <obo:IAO_0000115>A study design that includes specification of some intervention as part of the study process.</obo:IAO_0000115>
         <obo:IAO_0000118>controlled trial, study with at least one comparator group</obo:IAO_0000118>
         <rdfs:label>interventional study design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -140,6 +151,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A randomised controlled trial design in which participants are randomised to study on more than one occasion during the study.</obo:IAO_0000115>
         <rdfs:label>sequential multiple randomised controlled trial design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -152,6 +164,7 @@
         <obo:IAO_0000115>A randomised controlled trial design in which pre-existing groups of participants are randomly allocated to intervention arms</obo:IAO_0000115>
         <obo:IAO_0000118>cRCT, CRT, cluster-randomised controlled intervention trial, cluster-randomised controlled trial</obo:IAO_0000118>
         <rdfs:label>cluster randomised controlled trial design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -164,6 +177,7 @@
         <obo:IAO_0000115>An interventional study design in which participants are allocated to receive one or two or more interventions or no intervention using a quasi-random process.</obo:IAO_0000115>
         <obo:IAO_0000118>qRCT, quasi-randomised controlled trial</obo:IAO_0000118>
         <rdfs:label>quasi-randomised controlled trial design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -176,6 +190,7 @@
         <obo:IAO_0000115>An interventional study design in which all the participants receive the same type of intervention.</obo:IAO_0000115>
         <obo:IAO_0000118>intervention without comparator group</obo:IAO_0000118>
         <rdfs:label>single-arm intervention design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -187,6 +202,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A repeated measures study design involving multiple repeated measurements taken in each of two or more conditions facilitating inferential statistical analyses to be undertaken to output statistical parameters from data sets for each individual participant.</obo:IAO_0000115>
         <rdfs:label>n-of-1 study design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -198,6 +214,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A temporal interval between the end of one intervention and the beginning of another in a cross-over research study</obo:IAO_0000115>
         <rdfs:label>wash-out period</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -209,6 +226,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A health status in which the person presents fewer or lower intensity of symptoms compared to their previous symptom presentation, and the current symptoms minimally interfere with their life.</obo:IAO_0000115>
         <rdfs:label>In remission</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -220,6 +238,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A health status in which the symptoms of a person suffering from a disorder have reverted from a desired level to an undesired level.</obo:IAO_0000115>
         <rdfs:label>relapsed</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -231,6 +250,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A BCI attribute that is its temporal organisation.</obo:IAO_0000115>
         <rdfs:label>BCI schedule of delivery</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -242,6 +262,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A data item that is the number of contact events in an intervention temporal part.</obo:IAO_0000115>
         <rdfs:label>number of contact events</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -253,6 +274,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A BCI schedule of delivery in which the frequency and duration of BCI temporal parts are uniform across the course of a BCI or BCI part.</obo:IAO_0000115>
         <rdfs:label>regular intervention schedule</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -264,6 +286,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A BCI schedule of delivery in which the frequency and duration of contact events differ over the course of a temporal part or BCI.</obo:IAO_0000115>
         <rdfs:label>irregular intervention schedule</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -275,6 +298,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A behaviour change intervention source role that inheres in a person.</obo:IAO_0000115>
         <rdfs:label>person source role</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -286,6 +310,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An attribute of a BCI delivery that is the physical or informational medium through which a BCI is provided.</obo:IAO_0000115>
         <rdfs:label>behaviour change intervention mode of delivery</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -297,6 +322,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Mode of delivery that involves devices or substances that alter bodily processes or structure.</obo:IAO_0000115>
         <rdfs:label>somatic mode of delivery</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -308,6 +334,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Somatic mode of delivery that involves ingestion of a chemical into the body.</obo:IAO_0000115>
         <rdfs:label>ingestion mode of delivery</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -319,6 +346,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Ingestion mode of delivery that involves ingestion of a chemical through the skin.</obo:IAO_0000115>
         <rdfs:label>transdermal mode of delivery</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -330,6 +358,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Somatic mode of delivery that involves ingestion of a chemical through the stomach or intestine.</obo:IAO_0000115>
         <rdfs:label>alimentary mode of delivery</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -341,6 +370,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Ingestion mode of delivery that involves absorption of a chemical through the lining of the buccal cavity.</obo:IAO_0000115>
         <rdfs:label>buccal mode of delivery</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -352,6 +382,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Ingestion mode of delivery that involves absorption of a chemical through  the upper airways or lungs by inspiration.</obo:IAO_0000115>
         <rdfs:label>inhalation mode of delivery</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -363,6 +394,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Ingestion mode of delivery that involves a chemical being introduced into body tissue through a hollow needle that punctures the skin.</obo:IAO_0000115>
         <rdfs:label>injection mode of delivery</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -374,6 +406,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Ingestion mode of delivery that involves a device that is worn on the body.</obo:IAO_0000115>
         <rdfs:label>wearable ingestion mode of delivery</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -385,6 +418,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A personal attribute that is a time quality inhering in a person by virtue of how long the person has existed.</obo:IAO_0000115>
         <rdfs:label>human age</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -396,6 +430,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A personal attribute that is the state of an individual&apos;s mental or physical condition.</obo:IAO_0000115>
         <rdfs:label>health status</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -407,6 +442,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A bodily quality based on reproductive function or organs.</obo:IAO_0000115>
         <rdfs:label>biological sex</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -418,6 +454,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A biological sex associated with the ability to produce female gametes.</obo:IAO_0000115>
         <rdfs:label>female biological sex</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -429,6 +466,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A biological sex associated with the ability to produce male gametes.</obo:IAO_0000115>
         <rdfs:label>male biological sex</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -440,6 +478,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>The mean of human age in a population.</obo:IAO_0000115>
         <rdfs:label>mean human age</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -451,6 +490,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A health status attribute that is having been prescribed the use of one or more drugs to improve, maintain or protect one&apos;s health.</obo:IAO_0000115>
         <rdfs:label>medication use status</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -462,6 +502,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An intervention evaluation finding that characterises the difference between intervention outcome estimates of two intervention scenarios.</obo:IAO_0000115>
         <rdfs:label>intervention effect estimate</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -473,6 +514,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An evaluation finding that is the output of an intervention evaluation study.</obo:IAO_0000115>
         <rdfs:label>intervention evaluation finding</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -484,6 +526,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A geographical location of a country where the intervention takes place.</obo:IAO_0000115>
         <rdfs:label>country of intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -495,6 +538,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A healthcare facility led by doctors.</obo:IAO_0000115>
         <rdfs:label>doctor-led primary care facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -506,6 +550,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A healthcare facility that is run by a care home organization and is the bearer of a care home function.</obo:IAO_0000115>
         <rdfs:label>care home facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -517,6 +562,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A clinic providing healthcare services to people in a certain area</obo:IAO_0000115>
         <rdfs:label>community healthcare facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -528,6 +574,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A healthcare facility to treat patients in the community without them staying overnight.</obo:IAO_0000115>
         <rdfs:label>community outpatient clinic facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -539,6 +586,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A healthcare facility where dental healthcare is provided.</obo:IAO_0000115>
         <rdfs:label>dentist facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -550,6 +598,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility in which formal education is provided to a student population.</obo:IAO_0000115>
         <rdfs:label>educational facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -561,6 +610,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility used by a group of people living in the same place or having a particular characteristic in common.</obo:IAO_0000115>
         <rdfs:label>community facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -572,6 +622,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility used as an outlet for shopping.</obo:IAO_0000115>
         <rdfs:label>retail facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -583,6 +634,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility of a room, set of rooms, or building used as a place for commercial, professional, or bureaucratic work.</obo:IAO_0000115>
         <rdfs:label>office facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -594,6 +646,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility where individuals are being reprimanded, detained or imprisoned.</obo:IAO_0000115>
         <rdfs:label>criminal justice facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -605,6 +658,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility of a building or group of buildings where goods are manufactured or assembled chiefly by machine</obo:IAO_0000115>
         <rdfs:label>factory facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -616,6 +670,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility relating to or characteristic of soldiers or armed forces</obo:IAO_0000115>
         <rdfs:label>military facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -627,6 +682,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Methods of traveling from one place to another.</obo:IAO_0000115>
         <rdfs:label>transportation</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -638,6 +694,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Forms of transportation that run on fixed routes and are available to the public, usually for a set fare</obo:IAO_0000115>
         <rdfs:label>public transportation</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -649,6 +706,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A form of transportation owned by an individual for individual or group use.</obo:IAO_0000115>
         <rdfs:label>private transportation</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -660,6 +718,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A form of transportation delivering interventions in transient locations.</obo:IAO_0000115>
         <rdfs:label>mobile intervention venue</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -671,6 +730,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A form of transporation which can transport patients for health treatment, and in some instances will also provide out-of-hospital healthcare to the patient.</obo:IAO_0000115>
         <rdfs:label>ambulance</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -682,6 +742,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A site which is an outdoor location outside of a building.</obo:IAO_0000115>
         <rdfs:label>outdoor environment</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -693,6 +754,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An outdoor environment set in an expanse of water.</obo:IAO_0000115>
         <rdfs:label>water</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -704,6 +766,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An outdoor environment for the passage of persons or cyclists on land</obo:IAO_0000115>
         <rdfs:label>path or pavement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -715,6 +778,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A place designed and staffed to house and treat individuals that need assistance with mental dysfunctions</obo:IAO_0000115>
         <rdfs:label>psychiatric facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -726,6 +790,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A planned process that is the smallest part of BCI content that is observable, replicable and on its own has the potential to bring about behaviour change.</obo:IAO_0000115>
         <rdfs:label>behaviour change technique</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -737,6 +802,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A position-related behaviour in which muscles are used by a person to move themselves relative to the immediate environment or part of it.</obo:IAO_0000115>
         <rdfs:label>locomotive behaviour</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -748,6 +814,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An individual human behaviour that involves maintenance or improvement of flexibility, strength, balance or cardiovascular fitness.</obo:IAO_0000115>
         <rdfs:label>physical performance behaviour</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -759,6 +826,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An individual human behaviour that involves taking defensive action in order to avoid stimuli judged as aversive by the person.</obo:IAO_0000115>
         <rdfs:label>avoidance behaviour</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -770,6 +838,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A locomotive behaviour that involves moving at a regular pace by lifting and setting down each foot in turn, never having both feet off the ground at once.</obo:IAO_0000115>
         <rdfs:label>walking</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -781,6 +850,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A planned process that has the aim of influencing an outcome.</obo:IAO_0000115>
         <rdfs:label>intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1, LSR 2, LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -792,6 +862,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A research study that aims to assess attributes of an intervention with regards to their positive or negative value.</obo:IAO_0000115>
         <rdfs:label>intervention evaluation study</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -803,6 +874,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A process that is influenced by an intervention.</obo:IAO_0000115>
         <rdfs:label>intervention outcome</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -814,6 +886,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A belief about one&apos;s position in life in relation to one&apos;s goals, expectations, standards and concerns.</obo:IAO_0000115>
         <rdfs:label>belief about quality of life</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -825,6 +898,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An individual human behaviour that relates to some subjective experience of the behaving person.</obo:IAO_0000115>
         <rdfs:label>experience-related behaviour</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -844,6 +918,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A spatial region is a continuant entity that is a continuant_part_of spaceR as defined relative to some frame R.</obo:IAO_0000115>
         <rdfs:label>spatial region</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -855,6 +930,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists.</obo:IAO_0000115>
         <rdfs:label>object aggregate</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -866,6 +942,8 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A one-dimensional temporal region is a temporal region that is extended.</obo:IAO_0000115>
         <rdfs:label>one-dimensional temporal region</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -878,6 +956,7 @@
         <obo:IAO_0000115>A member of the class of thienopyrans that is 4,7-dihydro-5H-thieno[2,3-c]pyran substituted by a (methylamino)methyl at position 7S. It is a trace amine-associated receptor 1 and serotonin 5-HT1A receptors agonist that has demonstrated efficacy in the treatment of patients with schizophrenia.</obo:IAO_0000115>
         <obo:IAO_0000118>SEP-363856, SEP-856, SEP363856, SEP 363856,  SEP 856, SEP856</obo:IAO_0000118>
         <rdfs:label>ulotaront</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -889,6 +968,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A mood-stimulating drug used primarily in the treatment of affective disorders and related conditions.</obo:IAO_0000115>
         <rdfs:label>antidepressant</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -911,6 +991,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An agent that controls agitated psychotic behaviour, alleviate acute psychotic states, reduce psychotic symptoms, and exert a quieting effect.</obo:IAO_0000115>
         <rdfs:label>antipsychotic agent</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -922,6 +1003,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Cholesterol esters and free cholesterol which are contained in or bound to very low density lipoproteins (VLDL).</obo:IAO_0000115>
         <rdfs:label>very-low-density lipoprotein cholesterol</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -934,6 +1016,7 @@
         <obo:IAO_0000115>Cholesterol esters and free cholesterol which are contained in or bound to low-density lipoproteins (LDL).</obo:IAO_0000115>
         <obo:IAO_0000118>LDL cholesterol</obo:IAO_0000118>
         <rdfs:label>low-density lipoprotein cholesterol</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -946,6 +1029,7 @@
         <obo:IAO_0000115>Cholesterol esters and free cholesterol which are contained in or bound to high-density lipoproteins (HDL).</obo:IAO_0000115>
         <obo:IAO_0000118>HDL cholesterol</obo:IAO_0000118>
         <rdfs:label>high-density lipoprotein cholesterol</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -958,6 +1042,7 @@
         <obo:IAO_0000115>A diastereoisomeric mixture of approximately equal amounts of all four possible diastereoisomers of 4-(1-hydroxy-2-{[4-(4-hydroxyphenyl)butan-2-yl]amino}ethyl)phenol.</obo:IAO_0000115>
         <obo:IAO_0000118>( -)-all-rac-p-hydroxy-alpha-({[3-(p-hydroxyphenyl)-1-methylpropyl]amino}methyl)benzyl alcohol, ractopamine, ractopamina,    ractopaminum</obo:IAO_0000118>
         <rdfs:label>ractopamine</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -980,6 +1065,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>QT interval corrected for heart rate calculated by the QT interval divided by the square root of the interval from one QRS complex to the onset of the next QRS complex measured in seconds.</obo:IAO_0000115>
         <rdfs:label>QTC interval</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -999,6 +1085,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An open way for the passage of vehicles, persons, or animals on land</obo:IAO_0000115>
         <rdfs:label>road</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1010,6 +1097,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A landform consisting of loose rock particles such as sand, gravel, shingle, pebbles, cobble, or even shell fragments along the shoreline of a body of wate</obo:IAO_0000115>
         <rdfs:label>beach</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1021,6 +1109,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An area in which grasses (Graminae) are a significant component of the vegetation</obo:IAO_0000115>
         <rdfs:label>grassland</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1032,6 +1121,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An area with a high density of trees. A small forest may be called a wood</obo:IAO_0000115>
         <rdfs:label>forest</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1043,6 +1133,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility, permanent or temporary, on land, in air, space or water, where scientific research or measurements can be undertaken</obo:IAO_0000115>
         <rdfs:label>research facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1054,6 +1145,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A bounded area of land, or water, usually in its natural or semi-natural (landscaped) state and set aside for some purpose, usually to do with recreation or conservation</obo:IAO_0000115>
         <rdfs:label>park</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1065,6 +1157,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A reference to a place on the Earth, by its name or by its geographical location</obo:IAO_0000115>
         <rdfs:label>geographical location</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1076,6 +1169,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</obo:IAO_0000115>
         <rdfs:label>data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1087,6 +1181,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.</obo:IAO_0000115>
         <rdfs:label>textual entity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1098,6 +1193,8 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A data item that is a recording of the output of an assay.</obo:IAO_0000115>
         <rdfs:label>measurement data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1109,6 +1206,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A textual entity intended to identify a particular institution.</obo:IAO_0000115>
         <rdfs:label>institutional identification</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1120,6 +1218,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A textual entity that denotes a particular in reality.</obo:IAO_0000115>
         <rdfs:label>written name</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1131,6 +1230,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A textual entity documenting the source of funding that supported some study.</obo:IAO_0000115>
         <rdfs:label>funding source declaration textual entity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1142,6 +1242,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A textual entity that discusses work from other publications and expresses their relevancy to the content of a document.</obo:IAO_0000115>
         <rdfs:label>related work textual entity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1153,6 +1254,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An anatomical structure in which there inheres the disposition to be the agent of a mental process.</obo:IAO_0000115>
         <rdfs:label>mental functioning related anatomical structure</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1164,6 +1266,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A mental disposition is a bodily disposition that is realized in a mental process.</obo:IAO_0000115>
         <rdfs:label>mental disposition</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1175,6 +1278,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A mental disposition to represent a proposition to be true.</obo:IAO_0000115>
         <rdfs:label>belief</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1186,6 +1290,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An information content entity that represents a type of scale on which a variable is measured, including nominal, ordinal, interval, ratio.</obo:IAO_0000115>
         <rdfs:label>measurement scale</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1197,6 +1302,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A data transformation that is used to calculate the power of a statistical analysis.</obo:IAO_0000115>
         <rdfs:label>power calculation</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1208,6 +1314,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A quantitative confidence value that refers to an interval give values within which there is a high probability (95 percent by convention) that the true population value can be found.</obo:IAO_0000115>
         <rdfs:label>confidence interval</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1219,6 +1326,8 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A quantitative confidence value that measures the variability of data around the mean.</obo:IAO_0000115>
         <rdfs:label>standard deviation</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1230,6 +1339,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A confidence interval with 95 percent probability that the true population value can be found.</obo:IAO_0000115>
         <rdfs:label>95% confidence interval</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1252,6 +1362,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A quantitative confidence value that represents the probability of obtaining a result at least as extreme as that actually obtained, assuming that the actual value was the result of chance alone.</obo:IAO_0000115>
         <rdfs:label>p-value</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1263,6 +1374,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A quantitative confidence value which is the standard deviations of the sample in a frequency distribution, obtained by dividing the standard deviation by the total number of cases in the frequency distribution.</obo:IAO_0000115>
         <rdfs:label>standard error</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1274,6 +1386,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A data item that is produced as the output of a center calculation data transformation and represents the center value of the input data.</obo:IAO_0000115>
         <rdfs:label>center value</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1285,6 +1398,8 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A data item that is produced as the output of an averaging data transformation and represents the average value of the input data.</obo:IAO_0000115>
         <rdfs:label>average value</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1296,6 +1411,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A measurement datum that measures the quantity of something that may be administered to an organism or that an organism may be exposed to. Quantities of nutrients, drugs, vaccines and toxins are referred to as doses.</obo:IAO_0000115>
         <rdfs:label>dose</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1307,6 +1423,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.</obo:IAO_0000115>
         <rdfs:label>study design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1318,6 +1435,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A parallel group design or independent measure design is a study design which uses unique experimental unit each experimental group, in other word no two individuals are shared between experimental groups, hence also known as parallel group design.</obo:IAO_0000115>
         <rdfs:label>parallel group design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1329,6 +1447,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An eligibility criterion which defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.</obo:IAO_0000115>
         <rdfs:label>inclusion criterion</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1340,6 +1459,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An eligibility criterion which defines and states a condition which, if met, makes an entity unsuitable for a given task or participation in a given process.</obo:IAO_0000115>
         <rdfs:label>exclusion criterion</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1351,6 +1471,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A process experienced by the patient, which can only be experienced by the patient, that is hypothesized to be clinically relevant.</obo:IAO_0000115>
         <rdfs:label>symptom</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1362,6 +1483,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A bodily process that is clinically abnormal.</obo:IAO_0000115>
         <rdfs:label>pathological bodily process</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1373,6 +1495,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>The representation of a conclusion of a diagnostic process.</obo:IAO_0000115>
         <rdfs:label>diagnosis</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1384,6 +1507,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A data item that is about a patient and is the specified output of a health care process assay or diagnostic process.</obo:IAO_0000115>
         <rdfs:label>clinical data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1396,6 +1520,7 @@
         <obo:IAO_0000115>A diagnosis that is the outcome of a diagnostic process targeting a second or additional health problem.</obo:IAO_0000115>
         <rdfs:comment>Relation between person and diagnosis needs to be specified</rdfs:comment>
         <rdfs:label>comorbidity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1407,6 +1532,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An architectural structure that bears some function.</obo:IAO_0000115>
         <rdfs:label>facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1418,6 +1544,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility that is run by a hospital organization, such as emergency departments, outpatient clinics and rehabilitation and is the bearer of a hospital function</obo:IAO_0000115>
         <rdfs:label>hospital facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1429,6 +1556,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility that’s administered by a health care organisation for the purpose of providing health care to a patient population</obo:IAO_0000115>
         <rdfs:label>healthcare facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1440,6 +1568,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A health care facility that bears a function to provide healthcare to the sick or terminally ill</obo:IAO_0000115>
         <rdfs:label>hospice facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1451,6 +1580,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility to assist in physical or addiction recovery</obo:IAO_0000115>
         <rdfs:label>rehabilitation facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1462,6 +1592,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A facility that has at least one housing unit as part in which a person or persons live</obo:IAO_0000115>
         <rdfs:label>residential facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1473,6 +1604,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>The current stage of a clinical study and whether it is or will be open for enrolment.</obo:IAO_0000115>
         <rdfs:label>study status</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1484,6 +1616,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A physical quality inhering in a bearer that has mass near a gravitational body.</obo:IAO_0000115>
         <rdfs:label>weight</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1495,6 +1628,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A health care facility whose function is to store, prepare, dispense, and monitor the usage of pharmaceutical drugs among patients in a given area or encountered in a given health care provider organization</obo:IAO_0000115>
         <rdfs:label>pharmacy facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1507,6 +1641,7 @@
         <obo:IAO_0000115>A rhodopsin-like G-protein coupled receptor that is related to trace amine-associated receptor 1 (TAAR1) and characterized by the sequence motif NSxxNPxx[YH]xxx[YF]xWF overlapping TM7.</obo:IAO_0000115>
         <obo:IAO_0000118>trace-amine-associated receptor, trace amine associated receptor</obo:IAO_0000118>
         <rdfs:label>trace amine receptor</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1519,6 +1654,7 @@
         <obo:IAO_0000115>A trace amine-associated receptor 1-4 that is a translation product of the human TAAR1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000118>TRAR1, TAAR1, TAR1,  TA1</obo:IAO_0000118>
         <rdfs:label>trace amine-associated receptor 1</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1530,6 +1666,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A data item which denotes the smallest value found in a dataset or resulting from a calculation.</obo:IAO_0000115>
         <rdfs:label>minimum value</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1541,6 +1678,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A data item which denotes the largest value found in a dataset or resulting from a calculation.</obo:IAO_0000115>
         <rdfs:label>maximum value</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1563,6 +1701,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Is any quantification of glucose.</obo:IAO_0000115>
         <rdfs:label>glucose measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1574,6 +1713,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A triglyceride measurement is a quantification of triglycerides in some body fluid, used as a biomarker for cardiovascular disease.</obo:IAO_0000115>
         <rdfs:label>triglyceride measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1585,6 +1725,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A quantification of glycated A1c hemoglobin in blood used as an index for blood glucose level over several months.</obo:IAO_0000115>
         <rdfs:label>HbA1c measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1596,6 +1737,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A total cholesterol measurement is the quantification of cholesterol in blood, total cholesterol is defined as the sum of HDL, LDL, and VLDL.</obo:IAO_0000115>
         <rdfs:label>total cholesterol measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1607,6 +1749,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>The measurement of LDL cholesterol in blood used as a risk indicator for heart disease.</obo:IAO_0000115>
         <rdfs:label>low density lipoprotein cholesterol measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1618,6 +1761,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>The measurement of HDL cholesterol in blood used as a risk indicator for heart disease.</obo:IAO_0000115>
         <rdfs:label>high density lipoprotein cholesterol measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1629,6 +1773,7 @@
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>Quantification of prolactin in a sample.</obo:IAO_0000115>
         <rdfs:label>prolactin measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1640,6 +1785,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Dose of pharmacological substance delivered to an individual.</obo:IAO_0000115>
         <rdfs:label>dose of pharmacological substance</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1651,6 +1797,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A written name intended to identify a particular drug.</obo:IAO_0000115>
         <rdfs:label>drug name</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1662,6 +1809,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A data item that is about the number of times a dose of pharmacological substance is delivered during an intervention.</obo:IAO_0000115>
         <rdfs:label>frequency of pharmacological substance dose</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1673,6 +1821,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A written name intended to identify a particular intervention arm.</obo:IAO_0000115>
         <rdfs:label>intervention arm name</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1684,6 +1833,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A temporal interval between the start and end of an intervention.</obo:IAO_0000115>
         <rdfs:label>intervention duration</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1695,6 +1845,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A maximum value of the dose of pharmacological substance delivered to individuals in a group.</obo:IAO_0000115>
         <rdfs:label>maximum dose of pharmacological substance</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1706,6 +1857,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A average value of dose of pharmacological substance delivered to individuals in a group.</obo:IAO_0000115>
         <rdfs:label>average dose of pharmacological substance</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1717,6 +1869,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A minimum value of the dose of pharmacological substance delivered to individuals in a group.</obo:IAO_0000115>
         <rdfs:label>minimum dose of pharmacological substance</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1728,6 +1881,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An intervention that has the same or similar appearance and delivery to another intervention but is intended not to have the active content of that intervention.</obo:IAO_0000115>
         <rdfs:label>placebo intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1742,6 +1896,7 @@
         <obo:IAO_0000119>Guy, W. (1976). ECDEU assessment manual for psychopharmacology. US Department of Health, Education, and Welfare, Public Health Service, Alcohol, Drug Abuse, and Mental Health Administration, National Institute of Mental Health, Psychopharmacology Research Branch, Division of Extramural Research Programs.</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;dyskinesias&apos; and &apos;dyskinesias following an intervention&apos;</obo:IAO_0000232>
         <rdfs:label>Abnormal Involuntary Movement Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1756,6 +1911,7 @@
         <obo:IAO_0000119>https://academic.oup.com/schizophreniabulletin/article/13/2/261/1919795?login=false</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;affective psychotic disorder symptom severity&apos;</obo:IAO_0000232>
         <rdfs:label>Anxiety and depression subscale of Positive and Negative Syndrome Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1770,6 +1926,7 @@
         <obo:IAO_0000119>https://academic.oup.com/schizophreniabulletin/article/13/2/261/1919795?login=false</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;affective psychotic disorder symptom severity&apos;</obo:IAO_0000232>
         <rdfs:label>Anxiety subscale of Positive and Negative Syndrome Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1784,6 +1941,7 @@
         <obo:IAO_0000119>https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/abs/rating-scale-for-druginduced-akathisia/77334A34A80E801C6297640C63701866</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;akathisia&apos; and &apos;akathisia following an intervention&apos;</obo:IAO_0000232>
         <rdfs:label>Barnes Akathisia Rating Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1798,6 +1956,7 @@
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3044634/</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;negative psychotic disorder symptom severity&apos;</obo:IAO_0000232>
         <rdfs:label>Brief Negative Symptom Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1812,6 +1971,7 @@
         <obo:IAO_0000119>https://journals.sagepub.com/doi/abs/10.2466/pr0.1962.10.3.799</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;psychotic disorder symptom severity&apos;</obo:IAO_0000232>
         <rdfs:label>Brief Psychiatric Rating Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1825,6 +1985,7 @@
         <obo:IAO_0000118>CGI score</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2880930/</obo:IAO_0000119>
         <rdfs:label>Clinical Global Impression data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1839,6 +2000,7 @@
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2880930/</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;human functioning&apos;</obo:IAO_0000232>
         <rdfs:label>Clinical Global Impression – Improvement data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1853,6 +2015,7 @@
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2880930/</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;human functioning&apos;</obo:IAO_0000232>
         <rdfs:label>Clinical Global Impressions - Severity data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1866,6 +2029,7 @@
         <obo:IAO_0000118>C-SSRS score</obo:IAO_0000118>
         <obo:IAO_0000119>https://ajp.psychiatryonline.org/doi/full/10.1176/appi.ajp.2011.10111704</obo:IAO_0000119>
         <rdfs:label>Columbia-Suicide Severity Rating Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1880,6 +2044,7 @@
         <obo:IAO_0000119>https://ajp.psychiatryonline.org/doi/full/10.1176/appi.ajp.2011.10111704</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;suicidal ideation&apos; and &apos;suicidal ideation following intervention&apos;</obo:IAO_0000232>
         <rdfs:label>Columbia-Suicide Severity Rating Scale ideation data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1894,6 +2059,7 @@
         <obo:IAO_0000119>https://ajp.psychiatryonline.org/doi/full/10.1176/appi.ajp.2011.10111704</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;suicidal attempt&apos; and &apos;suicidal attempt following intervention&apos;</obo:IAO_0000232>
         <rdfs:label>Columbia-Suicide Severity Rating Scale suicide attempt data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1908,6 +2074,7 @@
         <obo:IAO_0000119>https://academic.oup.com/schizophreniabulletin/article/13/2/261/1919795?login=false</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;depression symptom severity&apos;</obo:IAO_0000232>
         <rdfs:label>Depression subscale of Positive and Negative Syndrome Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1922,6 +2089,7 @@
         <obo:IAO_0000119>https://euroqol.org/information-and-support/euroqol-instruments/eq-5d-3l/</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;belief about quality of life&apos;</obo:IAO_0000232>
         <rdfs:label>EuroQol five dimensions questionnaire-3 levels  data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1936,6 +2104,7 @@
         <obo:IAO_0000119>https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/abs/new-depression-scale-designed-to-be-sensitive-to-change/94D3798EAE4FD0EF2FC50FF671E9AE5D</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;depression symptom severity&apos;</obo:IAO_0000232>
         <rdfs:label>Montgomery and Asberg Depression Rating Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1950,6 +2119,7 @@
         <obo:IAO_0000119>https://academic.oup.com/schizophreniabulletin/article/13/2/261/1919795?login=false</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;negative psychotic disorder symptom severity&apos;</obo:IAO_0000232>
         <rdfs:label>Negative subscale of Positive and Negative Syndrome Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1964,6 +2134,7 @@
         <obo:IAO_0000119>https://psycnet.apa.org/doiLanding?doi=10.1037/t38751-000</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;human functioning&apos;</obo:IAO_0000232>
         <rdfs:label>Personal and Social Performance Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1977,6 +2148,7 @@
         <obo:IAO_0000118>PANSS score</obo:IAO_0000118>
         <obo:IAO_0000119>https://academic.oup.com/schizophreniabulletin/article/13/2/261/1919795?login=false</obo:IAO_0000119>
         <rdfs:label>Positive and Negative Syndrome Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -1990,6 +2162,7 @@
         <obo:IAO_0000118>PANSS positive scale score</obo:IAO_0000118>
         <obo:IAO_0000119>https://academic.oup.com/schizophreniabulletin/article/13/2/261/1919795?login=false</obo:IAO_0000119>
         <rdfs:label>Positive subscale of Positive and Negative Syndrome Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2004,6 +2177,7 @@
         <obo:IAO_0000119>https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mds.22575</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;positive psychotic disorder symptom severity&apos;</obo:IAO_0000232>
         <rdfs:label>Scale for Assessment of Positive Symptoms for Parkinson&apos;s disease data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2018,6 +2192,7 @@
         <obo:IAO_0000119>https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1600-0447.1970.tb02066.x?casa_token=LUDnE3qw22EAAAAA:WmxhkzTWT1ph2LwdXV1Q2SNi-fBT-AI1_JbGRKiTK4gu6YlfyQacMJOjKTEZpRywIc9mC1YOc7Bxlg</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;neuroleptic-induced parkinsonism&apos; and &apos;neuroleptic-induced parkinsonism following an intervention&apos;</obo:IAO_0000232>
         <rdfs:label>Simpson Angus Scale data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2032,6 +2207,7 @@
         <obo:IAO_0000119>https://www.neurology.org/doi/abs/10.1212/wnl.44.12.2308?casa_token=nkFeNqJ4GNgAAAAA:HSsZ3dm0YEp57T1i7Ncr649VK-VWiouxOSdiZNwaPWerk3fqAGGyEDyP1nV_WAj3u6VsrVkShPeP</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;psychotic disorder symptom severity&apos;</obo:IAO_0000232>
         <rdfs:label>The Neuropsychiatric Inventory Huntington&apos;s disease data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2046,6 +2222,7 @@
         <obo:IAO_0000119>Fahn, S. R. L. E. (1987). Unified Parkinson&apos;s disease rating scale. Recent developments in Parkinson&apos;s disease, 153-163.</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;drug-induced movement disorder&apos; and &apos;drug-induced movement disorder following an intervention&apos;</obo:IAO_0000232>
         <rdfs:label>Unified Parkinson&apos;s Disease Rating Scale Part 3 data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2060,6 +2237,7 @@
         <obo:IAO_0000119>https://academic.oup.com/schizophreniabulletin/article/33/6/1364/1900584</obo:IAO_0000119>
         <obo:IAO_0000232>A measure for &apos;human functioning&apos;</obo:IAO_0000232>
         <rdfs:label>University of California, San Diego Performance-Based Skills Assessment-Brief</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2071,6 +2249,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse change in a bodily measurement parameter relating to HbA1c measurement.</obo:IAO_0000115>
         <rdfs:label>adverse change in HbA1c measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2083,6 +2262,7 @@
         <obo:IAO_0000115>An adverse event associated with a change in a person&apos;s bodily meeasurement parameters.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on http://purl.obolibrary.org/obo/OAE_0000581</obo:IAO_0000119>
         <rdfs:label>adverse change in a bodily measurement parameter</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2094,6 +2274,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse change in a bodily measurement parameter relating to the body mass index.</obo:IAO_0000115>
         <rdfs:label>adverse change in body mass index</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2105,6 +2286,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse change in a bodily measurement parameter relating to body weight.</obo:IAO_0000115>
         <rdfs:label>adverse change in body weight</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2116,6 +2298,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse change in a bodily measurement parameter relating to glucose measurement.</obo:IAO_0000115>
         <rdfs:label>adverse change in glucose measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2127,6 +2310,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse change in a bodily measurement parameter relating to the high density lipoprotein cholesterol measurement.</obo:IAO_0000115>
         <rdfs:label>adverse change in high density lipoprotein cholesterol measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2138,6 +2322,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse change in a bodily measurement parameter relating to the low density lipoprotein cholesterol measurement.</obo:IAO_0000115>
         <rdfs:label>adverse change in low density lipoprotein cholesterol measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2149,6 +2334,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse change in a bodily measurement parameter relating to prolactin measurement.</obo:IAO_0000115>
         <rdfs:label>adverse change in prolactin measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2160,6 +2346,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse change in prolactin measurement in people with female gender.</obo:IAO_0000115>
         <rdfs:label>adverse change in prolactin measurement of females</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2171,6 +2358,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse change in prolactin measurement in people with male gender.</obo:IAO_0000115>
         <rdfs:label>adverse change in prolactin measurement of males</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2182,6 +2370,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse change in a bodily measurement parameter relating to the total cholesterol measurement.</obo:IAO_0000115>
         <rdfs:label>adverse change in total cholesterol measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2193,6 +2382,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse change in a bodily measurement parameter relating to triglyceride measurement.</obo:IAO_0000115>
         <rdfs:label>adverse change in triglyceride measurement</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2204,6 +2394,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A pathological bodily process that occurs after the intervention delivery starts.</obo:IAO_0000115>
         <rdfs:label>adverse event following an intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2215,6 +2406,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A psychotic disorder symptom is characterized by a person experiencing depression, anxiety or low moods.</obo:IAO_0000115>
         <rdfs:label>affective psychotic disorder symptom</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2226,6 +2418,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Symptom severity that is associated with an affective psychotic disorder symptom.</obo:IAO_0000115>
         <rdfs:label>affective psychotic disorder symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2238,6 +2431,7 @@
         <obo:IAO_0000115>A drug-induced movement disorder following intervention that involves feeling restlessness, increased urges to move and reduced capability to suppress such urges.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on https://www.ncbi.nlm.nih.gov/books/NBK519543/</obo:IAO_0000119>
         <rdfs:label>akathisia following pharmacological intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2250,6 +2444,7 @@
         <obo:IAO_0000115>A belief about the degree to which a drug results in harm to a person.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on Alshammari, T. M. (2016). Drug safety: The concept, inception and its importance in patients’ health. Saudi Pharmaceutical Journal, 24(4), 405-412.</obo:IAO_0000119>
         <rdfs:label>belief about drug safety</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2261,6 +2456,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A belief about about the negative effects of a drug on a person.</obo:IAO_0000115>
         <rdfs:label>belief about drug-related adverse events</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2273,6 +2469,7 @@
         <obo:IAO_0000115>A belief about whether the delivered intervention is appropriate based on anticipated or experienced responses to the intervention.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on Sekhon, M., Cartwright, M., and Francis, J. J. (2017). Acceptability of healthcare interventions: an overview of reviews and development of a theoretical framework. BMC health services research, 17(1), 1-13.</obo:IAO_0000119>
         <rdfs:label>belief about intervention acceptability</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2285,6 +2482,7 @@
         <obo:IAO_0000115>A belief about the degree to which a drug results in unpleasant or bothersome bodily reactions.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on Stanulović, V., Hodolic, M., Mitsikostas, D. D., and Papadopoulos, D. (2022). Drug tolerability: how much ambiguity can be tolerated? A systematic review of the assessment of tolerability in clinical studies. British Journal of Clinical Pharmacology, 88(2), 551-565.</obo:IAO_0000119>
         <rdfs:label>belief about tolerability of drug</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2297,6 +2495,7 @@
         <obo:IAO_0000115>A data item that is derived by dividing the body weight be the square of the body height.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on Nuttall F. Q. (2015). Body Mass Index: Obesity, BMI, and Health: A Critical Review. Nutrition today, 50(3), 117–128. https://doi.org/10.1097/NT.0000000000000092</obo:IAO_0000119>
         <rdfs:label>body mass index</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2308,6 +2507,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Weight of an organism.</obo:IAO_0000115>
         <rdfs:label>body weight</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2319,6 +2519,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A death following an intervention that involves a participant dying as a result of an accident.</obo:IAO_0000115>
         <rdfs:label>death due to accidents following an intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2331,6 +2532,7 @@
         <obo:IAO_0000115>A death following an intervention that results from an illness or its complications or an internal bodily malfunction that is not directly caused by external events.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on https://en.wikipedia.org/wiki/Manner_of_death</obo:IAO_0000119>
         <rdfs:label>death due to natural causes following an intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2342,6 +2544,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A serious adverse event following an intervention that has an outcome of death.</obo:IAO_0000115>
         <rdfs:label>death following an intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2354,6 +2557,7 @@
         <obo:IAO_0000115>A symptom that is related to a depression diagnosis.</obo:IAO_0000115>
         <obo:IAO_0000118>depressive symptom</obo:IAO_0000118>
         <rdfs:label>depression symptom</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2366,6 +2570,8 @@
         <obo:IAO_0000115>Symptom severity that is associated with a depression symptom.</obo:IAO_0000115>
         <obo:IAO_0000115>Symptom severity that is associated with a depression symtom.</obo:IAO_0000115>
         <rdfs:label>depression symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2379,6 +2585,7 @@
         <obo:IAO_0000118>extrapyramidal symptom following intervention</obo:IAO_0000118>
         <obo:IAO_0000119>Based on https://www.ncbi.nlm.nih.gov/books/NBK534115/</obo:IAO_0000119>
         <rdfs:label>drug-induced movement disorder following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2390,6 +2597,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse event following an intervention that involves dyskinesias.</obo:IAO_0000115>
         <rdfs:label>dyskinesias following an intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2401,6 +2609,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A death following an intervention that involves a participant being intentionally killed by another person.</obo:IAO_0000115>
         <rdfs:label>homicide following an intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2412,6 +2621,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A health care process that involves a person being admitted to a hospital.</obo:IAO_0000115>
         <rdfs:label>hospitalization</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2423,6 +2633,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A bodily disposition to realise processes that influence a person&apos;s life quality.</obo:IAO_0000115>
         <rdfs:label>human functioning</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2435,6 +2646,7 @@
         <obo:IAO_0000115>A psychotic disorder symptom that is characterized by the absence or decrease in ability or motivation to initiate plans, speak, express emotion of find pleasure.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on https://www.psychiatry.org/patients-families/schizophrenia/what-is-schizophrenia</obo:IAO_0000119>
         <rdfs:label>negative psychotic disorder symptom</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2446,6 +2658,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Psychotic disorder symptom severity that is associated with negative psychotic disorder symptoms.</obo:IAO_0000115>
         <rdfs:label>negative psychotic disorder symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2458,6 +2671,7 @@
         <obo:IAO_0000115>A drug-induced movement disorder following intervention that involves experiencing slowness of movement, tremors and rigidity.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on https://link.springer.com/article/10.1007/s007020100006</obo:IAO_0000119>
         <rdfs:label>neuroleptic-induced parkinsonism following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2469,6 +2683,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Number of participant drop-out from the intervention as a result the participants experiencing some adverse event.</obo:IAO_0000115>
         <rdfs:label>number of participant drop-out due to adverse events</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2480,6 +2695,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Number of participant drop-out from the intervention as a result of the intervention failing to produce the desired effect.</obo:IAO_0000115>
         <rdfs:label>number of participant drop-out due to inefficacy</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2491,6 +2707,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Number of participant drop-out due to adverse events that are experienced following the intervention.</obo:IAO_0000115>
         <rdfs:label>number of participant drop-out due to side-effects</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2502,6 +2719,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Number of intervention participants who discontinue participating in an intervention.</obo:IAO_0000115>
         <rdfs:label>number of participant drop-out from intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2513,6 +2731,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An intervention outcome that is positively influenced by the intervention.</obo:IAO_0000115>
         <rdfs:label>positive intervention outcome</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2525,6 +2744,7 @@
         <obo:IAO_0000115>A psychotic disorder symptom that is characterized by the presence of hallucinations, delusions, or disorganised thoughts or behaviours.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on https://www.psychiatry.org/patients-families/schizophrenia/what-is-schizophrenia</obo:IAO_0000119>
         <rdfs:label>positive psychotic disorder symptom</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2537,6 +2757,7 @@
         <obo:IAO_0000115>Psychotic disorder symptom severity that is associated with positive psychotic disorder symptoms.</obo:IAO_0000115>
         <obo:IAO_0000232>A measure for &apos;positive psychotic disorder symptom severity&apos;</obo:IAO_0000232>
         <rdfs:label>positive psychotic disorder symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2548,6 +2769,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Symptom severity that is associated with a psychotic disorder symptom.</obo:IAO_0000115>
         <rdfs:label>psychotic disorder symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2560,6 +2782,7 @@
         <obo:IAO_0000115>An adverse event following an intervention that results in death, a life-threatening event, a persistent or significant disability or a birth defect or requires hospitalisation or extends hospitalisation.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on http://purl.obolibrary.org/obo/OAE_0000631</obo:IAO_0000119>
         <rdfs:label>serious adverse event following an intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2571,6 +2794,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A serious adverse event following an intervention that is associated with multiple, persistent or salient negative mental processes.</obo:IAO_0000115>
         <rdfs:label>serious psychological adverse event following an intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2582,6 +2806,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A serious adverse event following an intervention that is associated with multiple, persistent or salient physical symptoms.</obo:IAO_0000115>
         <rdfs:label>serious somatic adverse event following an intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2594,6 +2819,7 @@
         <obo:IAO_0000115>An adverse event following an intervention that involves thoughts about suicide.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on http://purl.obolibrary.org/obo/OAE_0001432</obo:IAO_0000119>
         <rdfs:label>suicidal ideation following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2606,6 +2832,7 @@
         <obo:IAO_0000115>An adverse event following an intervention that involves at least one attempted suicide.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on http://purl.obolibrary.org/obo/OAE_0001433</obo:IAO_0000119>
         <rdfs:label>suicide attempt following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2617,6 +2844,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A death following an intervention that involves a participant intentionally ending their own life.</obo:IAO_0000115>
         <rdfs:label>suicide following an intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2630,6 +2858,7 @@
         <obo:IAO_0000115>A data item that is about the severity dimension associated with a symptom.</obo:IAO_0000115>
         <obo:IAO_0000232>A measure for &apos;psychotic disorder symptom severity&apos;</obo:IAO_0000232>
         <rdfs:label>symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2649,6 +2878,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Death following an intervention that involves a homicide or accidents.</obo:IAO_0000115>
         <rdfs:label>unnatural dealth due to external factors following an intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2660,6 +2890,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A person who is in the latter end of their lifespan.</obo:IAO_0000115>
         <rdfs:label>advanced age</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2671,6 +2902,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A person who has not yet reached maturity.</obo:IAO_0000115>
         <rdfs:label>child</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2682,6 +2914,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A clinical history in which there is a history of psychosis experience.</obo:IAO_0000115>
         <rdfs:label>clinical history of psychosis experience</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2693,6 +2926,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A self-identity as belonging to a group or groups whose members have a common heritage that is real or presumed such as common culture, language, religion, behaviour or biological trait.</obo:IAO_0000115>
         <rdfs:label>ethnic group membership</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2704,6 +2938,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A gender identity as being female.</obo:IAO_0000115>
         <rdfs:label>female gender</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2715,6 +2950,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A clinical history in which there is a history of only one period of psychosis experience.</obo:IAO_0000115>
         <rdfs:label>first psychosis experience history</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2726,6 +2962,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A self-identity as having a particular gender, which may or may not correspond with sex assigned at birth.</obo:IAO_0000115>
         <rdfs:label>gender identity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2737,6 +2974,7 @@
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A clinical history in which a person has more negative than psychotic disorder symptoms.</obo:IAO_0000115>
         <rdfs:label>predominant negative psychotic disorder symptom history</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2751,6 +2989,7 @@
 DSM V</obo:IAO_0000119>
         <rdfs:comment>Hallucinatory behaviour is an example of disorganised behaviour</rdfs:comment>
         <rdfs:label>psychosis experience</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2762,6 +3001,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A psychosis diagnosis that involves the conclusion that a person meets pre-set criteria for schizophrenia as a result of a diagnostic process.</obo:IAO_0000115>
         <rdfs:label>schizophrenia diagnosis</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2773,6 +3013,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Standard deviation of human age in a population.</obo:IAO_0000115>
         <rdfs:label>standard deviation human age</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2784,6 +3025,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A clinical history in which a person has an inadequate response to at least two adequate rials of antipsychotic drugs.</obo:IAO_0000115>
         <rdfs:label>treatment-resistant clinical history</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2795,6 +3037,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A data item that is about the number of sites.</obo:IAO_0000115>
         <rdfs:label>number of sites</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2806,6 +3049,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A psychiatric facility in which patients stay at the facility overnight.</obo:IAO_0000115>
         <rdfs:label>psychiatric inpatient facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2817,6 +3061,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A psychiatric facility to treat patients without them staying overnight.</obo:IAO_0000115>
         <rdfs:label>psychiatric outpatient facility</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2828,6 +3073,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An aggregate of entities that form the environment in which participants are recruited for a study.</obo:IAO_0000115>
         <rdfs:label>study recruitment setting</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2839,6 +3085,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A textual entity intended to identify a particular author.</obo:IAO_0000115>
         <rdfs:label>author identification</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2850,6 +3097,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A blinding process in which the data analysts are not informed about intervention arm assignments until after the data analysis is completed.</obo:IAO_0000115>
         <rdfs:label>blinding data analysts of intervention arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2859,8 +3107,9 @@ DSM V</obo:IAO_0000119>
     <owl:Class rdf:about="https://galenos.org.uk/ontologies/GMHO_0000109">
         <rdfs:subClassOf rdf:resource="https://galenos.org.uk/ontologies/GMHO_0000112"/>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
-        <obo:IAO_0000115>A blinding process in which sources deliverying the intervention are not informed about which of two or more interventions they are deliverying until after an endpoint has been reached.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blinding process in which sources delivering the intervention are not informed about which of two or more interventions they are delivering until after an endpoint has been reached.</obo:IAO_0000115>
         <rdfs:label>blinding intervention source about intervention arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2872,6 +3121,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>A blinding process in which the outcome assessors are not informed about which of two or more interventions they are collecting data about until after an endpoint has been reached.</obo:IAO_0000115>
         <rdfs:label>blinding outcome assessor of intervention arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2883,6 +3133,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A blinding process in which participants are not informed about which of two or more interventions they are to experience until after an endpoint has been reached.</obo:IAO_0000115>
         <rdfs:label>blinding participant about intervention arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2894,6 +3145,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A planned process in which information about study arm assignment is withheld from people until they completed their role in the study&apos;s data collection or analysis has ended.</obo:IAO_0000115>
         <rdfs:label>blinding process</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2905,6 +3157,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>&quot;randomised controlled trial design&quot; AND &quot;cross over design&quot;</obo:IAO_0000115>
         <rdfs:label>cross over randomised controlled trial design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2924,6 +3177,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>&quot;randomised controlled trial design&quot; AND &quot;n-of-1 study design&quot;</obo:IAO_0000115>
         <rdfs:label>n-of-1 randomised controlled trial design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2935,6 +3189,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A data item that is about the number of intervention groups in a study.</obo:IAO_0000115>
         <rdfs:label>number of intervention arms</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2946,6 +3201,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A related work textual entity that discusses work from other publications done as part of the same research project as the work reported in a document.</obo:IAO_0000115>
         <rdfs:label>publication from same research project</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2957,6 +3213,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Formal citation for a plan specification of the study published as protocol or trial registration.</obo:IAO_0000115>
         <rdfs:label>pre-registered plan specification source</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2968,6 +3225,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A textual entity documenting the year in which some study was published.</obo:IAO_0000115>
         <rdfs:label>publication year textual entity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2987,6 +3245,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>&quot;randomised controlled trial design&quot; AND &quot;parallel group design&quot;</obo:IAO_0000115>
         <rdfs:label>parallel randomised controlled trial design</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -2998,6 +3257,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A study arm designation as a comparator to some intervention arm.</obo:IAO_0000115>
         <rdfs:label>control arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3009,6 +3269,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A study arm that is subject to evaluation in an intervention evaluation study.</obo:IAO_0000115>
         <rdfs:label>intervention arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3020,6 +3281,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A temporal interval between the start and end of an intervention contact event.</obo:IAO_0000115>
         <rdfs:label>intervention contact event duration</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3031,6 +3293,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A planned process that is part of an intervention and is intended to be causally active in influencing its target outcome or outcomes.</obo:IAO_0000115>
         <rdfs:label>intervention content</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3042,6 +3305,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A control arm designation where there is no intervention.</obo:IAO_0000115>
         <rdfs:label>no treatment control arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3053,6 +3317,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An information content entity that is about an intervention scenario and designates it as part of an intervention evaluation study.</obo:IAO_0000115>
         <rdfs:label>study arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3064,6 +3329,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A control arm designation where the same content and delivery is already provided as standard practice.</obo:IAO_0000115>
         <rdfs:label>treatment as usual control arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3075,6 +3341,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A control arm designation where no intervention prior to the primary outcome follow-up point is delivered but participants in the study arm are informed that they will be entitled to receive an intervention at some time after that point.</obo:IAO_0000115>
         <rdfs:label>waitlist control arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3085,6 +3352,7 @@ DSM V</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MF_0000033"/>
         <obo:IAO_0000115>A mental disposition that is realised by experiencing low pleasure or interest in response to various positively valenced stimuli.</obo:IAO_0000115>
         <rdfs:label>anhedonia</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3095,6 +3363,7 @@ DSM V</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="https://galenos.org.uk/ontologies/GMHO_0000087"/>
         <obo:IAO_0000115>Symptom severity that is associated with anhedonia.</obo:IAO_0000115>
         <rdfs:label>anhedonia symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3105,6 +3374,7 @@ DSM V</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>A data item about the number of heart contractions within a temporal interval.</obo:IAO_0000115>
         <rdfs:label>heart rate</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3116,6 +3386,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000115>A quantitative confidence value that denotes the lower endpoint of a 95% confidence interval and indicates the lowest value within a true parameter is likely to reside within the confidence interval.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on Ross, S. M. (2017). Estimation. Introductory statistics ( p. 329-380). Academic Press.</obo:IAO_0000119>
         <rdfs:label>lower bound of 95% confidence interval</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3127,6 +3398,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Number of intervention participants who discontinue participating in a intervention arm.</obo:IAO_0000115>
         <rdfs:label>number of participant drop-out from intervention arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3138,6 +3410,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000115>A bodily disposition to detect, pursue, learn from, and derive pleasure from stimuli perceived as positive.</obo:IAO_0000115>
         <obo:IAO_0000119>Goodnight, J. (Ed.) (2018). . (Vols. 1-5). SAGE Publications, Inc., https://doi.org/10.4135/9781506307633</obo:IAO_0000119>
         <rdfs:label>reward sensitivity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3148,6 +3421,7 @@ DSM V</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://humanbehaviourchange.org/ontology/BCIO_006119"/>
         <obo:IAO_0000115>Associative learning by which information is acquired regarding the positive outcomes of stimuli and behaviours.</obo:IAO_0000115>
         <rdfs:label>reward-based learning</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3160,6 +3434,7 @@ DSM V</obo:IAO_0000119>
         <obo:IAO_0000119>Based on Schultz, W. (2022). Dopamine reward prediction error coding. Dialogues in clinical neuroscience.
 RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definitions-of-the-rdoc-domains-and-constructs</obo:IAO_0000119>
         <rdfs:label>reward-prediction error signalling</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3170,6 +3445,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
         <obo:IAO_0000115>Time point at which a measurement is taken with reference to a temporal part of the intervention evaluation study.</obo:IAO_0000115>
         <rdfs:label>temporal reference associated with measurement in intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3181,6 +3457,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>A quantitative confidence value that denotes the upper endpoint of a 95% confidence interval and indicates the highest value within a true parameter is likely to reside within the confidence interval.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on Ross, S. M. (2017). Estimation. Introductory statistics ( p. 329-380). Academic Press.</obo:IAO_0000119>
         <rdfs:label>upper bound of 95% confidence interval</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3192,6 +3469,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A data item about the maximum capacity of an individual&apos;s body to transport and use oxygen during incremental exercise, which reflects the physical fitness of the individual.</obo:IAO_0000115>
         <rdfs:label>vo2 max</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3203,6 +3481,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Diagnosis severity relating to an anxiety diagnosis.</obo:IAO_0000115>
         <rdfs:label>anxiety diagnosis severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3214,6 +3493,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A symptom that related to a anxiety diagnosis.</obo:IAO_0000115>
         <rdfs:label>anxiety symptom</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3225,6 +3505,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Symptom severity that is associated with a anxiety symtom.</obo:IAO_0000115>
         <rdfs:label>anxiety symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3237,6 +3518,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>A diagnosis that involves the conclusion that a person meets pre-set criteria for autism spectrum disorder as a result of a diagnostic process.</obo:IAO_0000115>
         <obo:IAO_0000118>ASD diagnosis status</obo:IAO_0000118>
         <rdfs:label>autism spectrum disorder diagnosis</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3249,6 +3531,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>Diagnosis severity relating to an autism spectrum disorder diagnosis.</obo:IAO_0000115>
         <obo:IAO_0000118>ASD severity</obo:IAO_0000118>
         <rdfs:label>autism spectrum disorder diagnosis severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3260,6 +3543,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A measurement data item that is the recording of depression symptom severity.</obo:IAO_0000115>
         <rdfs:label>depression data item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3272,6 +3556,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>A data item that is about the severity dimension associated with a diagnosis.</obo:IAO_0000115>
         <rdfs:comment>There are different scales for rating severity, which can be indicate differences in severity.</rdfs:comment>
         <rdfs:label>diagnosis severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3284,6 +3569,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>A depression diagnosis that involves the conclusion that a person meets pre-set criteria for dysthymic disorder as a result of a diagnostic process.</obo:IAO_0000115>
         <obo:IAO_0000118>persistent depressive disorder diagnosis status</obo:IAO_0000118>
         <rdfs:label>dysthymia diagnosis</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3295,6 +3581,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Symptom severity that is associated with insomnia.</obo:IAO_0000115>
         <rdfs:label>insomnia symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3306,6 +3593,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A depression diagnosis that involves the conclusion that a person meets pre-set criteria for major depressive disorder  as a result of a diagnostic process.</obo:IAO_0000115>
         <rdfs:label>major depressive disorder diagnosis</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3317,6 +3605,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A data item that is about the number of participants in an intervention or part of an intervention at a timepoint.</obo:IAO_0000115>
         <rdfs:label>number of intervention participants</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3328,6 +3617,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Number of intervention participants who are part of an intervention arm.</obo:IAO_0000115>
         <rdfs:label>number of participants in intervention arm</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3339,6 +3629,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Number of intervention participants who were randomly allocated to study arms within an intervention.</obo:IAO_0000115>
         <rdfs:label>number of randomised intervention participants</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3351,6 +3642,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>Diagnosis severity relating to a post-traumatic stress disorder diagnosis.</obo:IAO_0000115>
         <obo:IAO_0000118>PTSD severity</obo:IAO_0000118>
         <rdfs:label>post-traumatic stress disorder diagnosis severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3363,6 +3655,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>A diagnosis that involves the conclusion that a person meets pre-set criteria for post-traumatic stress disorder as a result of a diagnostic process.</obo:IAO_0000115>
         <obo:IAO_0000118>PTSD diagnosis status</obo:IAO_0000118>
         <rdfs:label>post-traumatic stress disorder diagnosis</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3375,6 +3668,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>A measurement data item that is the recording of post-traumatic stress disorder severity level.</obo:IAO_0000115>
         <obo:IAO_0000118>PTSD measurement item</obo:IAO_0000118>
         <rdfs:label>post-traumatic stress disorder severity measurement item</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3397,6 +3691,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Anxiety symptom severity before the intervention delivery begins.</obo:IAO_0000115>
         <rdfs:label>pre-intervention anxiety symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3420,6 +3715,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>Autism spectrum diagnosis severity before the intervention delivery begins.</obo:IAO_0000115>
         <obo:IAO_0000118>baseline ASD severity</obo:IAO_0000118>
         <rdfs:label>pre-intervention autism spectrum disorder diagnosis severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3442,6 +3738,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Depression symptom severity before an intervention starts.</obo:IAO_0000115>
         <rdfs:label>pre-intervention depression symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3464,6 +3761,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Insomnia symptom severity before the intervention delivery begins.</obo:IAO_0000115>
         <rdfs:label>pre-intervention insomnia severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3488,6 +3786,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000118>Baseline clinical variable, baseline variable</obo:IAO_0000118>
         <obo:IAO_0000119>Based on https://dictionary.apa.org/baseline-characteristic</obo:IAO_0000119>
         <rdfs:label>pre-intervention personal attribute</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3514,6 +3813,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
 
 &quot;post-traumatic stress disorder diagnosis severity&quot; precedes &quot;intervention&quot;</obo:IAO_0000232>
         <rdfs:label>pre-intervention post-traumatic stress disorder diagnosis severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3536,6 +3836,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Substance use severity before the intervention delivery begins.</obo:IAO_0000115>
         <rdfs:label>pre-intervention substance use severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3547,6 +3848,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Prevalence of diagnosis for bipolar disorder.</obo:IAO_0000115>
         <rdfs:label>prevalence of bipolar disorder diagnosis</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3558,6 +3860,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Prevalence of people diagnosed with a specific disorder.</obo:IAO_0000115>
         <rdfs:label>prevalence of diagnosis</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3570,6 +3873,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>Prevalence of diagnosis for major depressive disorder.</obo:IAO_0000115>
         <obo:IAO_0000118>prevalence of unipolar depression disorder diagnosis</obo:IAO_0000118>
         <rdfs:label>prevalence of major depressive disorder diagnosis</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3581,6 +3885,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A data item about the frequency of a substance use behaviour or the amount of psychoactive substance ingested into the body.</obo:IAO_0000115>
         <rdfs:label>substance use severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3592,6 +3897,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>External</obo:IAO_0000114>
         <obo:IAO_0000115>An aggregate of entities that form the environment in which an intervention is provided.</obo:IAO_0000115>
         <rdfs:label>intervention setting</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3602,6 +3908,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>A textual entity documenting the email address of an author of a publication.</obo:IAO_0000115>
         <rdfs:label>author email address textual entity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3613,6 +3920,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An information content entity that is the language used to express the information in a document.</obo:IAO_0000115>
         <rdfs:label>language of document</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3624,6 +3932,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A symptom that is related to a psychotic disorder diagnosis.</obo:IAO_0000115>
         <rdfs:label>psychotic disorder symptom</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3636,6 +3945,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>Anxiety symptom severity relating to a post-traumatic stress symptom.</obo:IAO_0000115>
         <obo:IAO_0000118>PTSD severity</obo:IAO_0000118>
         <rdfs:label>post-traumatic stress symptom severity</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3647,6 +3957,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An anxiety symptom that related to a post-traumatic stress disorder diagnosis.</obo:IAO_0000115>
         <rdfs:label>post-traumatic stress symptom</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3659,6 +3970,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>An attribute of a measurement scale that involves the degree to which the outcomes from the scale represent the intended variable or variables.</obo:IAO_0000115>
         <obo:IAO_0000119>Based on Price, P. (2015). Research methods in psychology, 2nd Canadian Edition. BCcampus.</obo:IAO_0000119>
         <rdfs:label>validity of measurement scale</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3670,6 +3982,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A diagnosis that involves the conclusion that a person meets pre-set criteria for depression as a result of a diagnostic process.</obo:IAO_0000115>
         <rdfs:label>depression diagnosis</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3681,6 +3994,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>Dose of pharmacological substance delivered to individuals within each day.</obo:IAO_0000115>
         <rdfs:label>daily dose of pharmacological substance</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3692,6 +4006,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse event following an intervention that occurs in the digestive system.</obo:IAO_0000115>
         <rdfs:label>digestive system adverse event following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3703,6 +4018,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse event following an intervention that involves experiencing dizziness.</obo:IAO_0000115>
         <rdfs:label>dizziness following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3714,6 +4030,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A digestive system adverse event following intervention that involves experiencing dry mouth.</obo:IAO_0000115>
         <rdfs:label>dry mouth following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3725,6 +4042,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A pain following intervention that has an outcome of headache.</obo:IAO_0000115>
         <rdfs:label>headache following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3736,6 +4054,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse event following an intervention  in which there is an inability to fall asleep or to stay asleep as long as desired.</obo:IAO_0000115>
         <rdfs:label>insomnia following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3747,6 +4066,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A digestive system adverse event following intervention that has an outcome of nausea, a gastric discomfort associated with the inclination to vomit</obo:IAO_0000115>
         <rdfs:label>nausea following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3758,6 +4078,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An adverse event following an intervention that has an outcome of pain.</obo:IAO_0000115>
         <rdfs:label>pain following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3769,6 +4090,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A digestive system adverse event following intervention that has an outcome of vomiting, the retrograde expulsion of gastric contents through the oral cavity.</obo:IAO_0000115>
         <rdfs:label>vomiting following intervention</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 1</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3780,6 +4102,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A diagnosis that involves the conclusion that a person meets pre-set criteria for psychosis as a result of a diagnostic process.</obo:IAO_0000115>
         <rdfs:label>psychosis diagnosis</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 3</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3836,6 +4159,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>Physical performance behaviour pattern that increases heart rate and respiration while using large muscle groups repetitively and rhythmically.</obo:IAO_0000115>
         <obo:IAO_0000118>cardio training, aerobic exercise, aerobics, endurance exercise, endurance training, cardiovascular exercise</obo:IAO_0000118>
         <rdfs:label>cardiovascular exercise behaviour</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3847,6 +4171,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A locomotive behaviour that involves trotting or running at a slow and steady pace.</obo:IAO_0000115>
         <rdfs:label>jogging</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3858,6 +4183,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>An individual human behaviour pattern that involves repeated physical performance behaviour.</obo:IAO_0000115>
         <rdfs:label>physical performance behaviour pattern</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3870,6 +4196,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000115>Physical performance behaviour pattern that uses weight, or other forms of resistance, to induce muscle contraction and build strength, anaerobic endurance, and size of skeletal muscles.</obo:IAO_0000115>
         <obo:IAO_0000118>resistance training, strength training</obo:IAO_0000118>
         <rdfs:label>resistance training behaviour</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
@@ -3881,6 +4208,7 @@ RDoC - https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/definition
         <obo:IAO_0000114>Proposed</obo:IAO_0000114>
         <obo:IAO_0000115>A locomotive behaviour that involves moving at a steady pace and speed with long strides such that there is a phase at which all limbs are above the ground.</obo:IAO_0000115>
         <rdfs:label>running</rdfs:label>
+        <ontologies:GMHOR_0000001>LSR 2</ontologies:GMHOR_0000001>
     </owl:Class>
     
 
